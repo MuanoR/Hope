@@ -379,7 +379,9 @@ plot.NDVI(dat)</code></pre>
 satellite saturates with time since fire. Why do you think it saturates
 rather than increasing linearly with time?</p>
 <blockquote>
-<p><em>Answer 1:</em></p>
+<p><em>Answer 1: Since the fynbos has meditterranean climate, seasonal
+fluctuations means that the amount of greenness will also vary over
+time</em></p>
 </blockquote>
 <p><br></p>
 </div>
@@ -460,7 +462,9 @@ summary(fit_negexpS)</code></pre>
 <p>Lots more parameters…</p>
 <p>Q2: How do the estimates for the common parameters compare?</p>
 <blockquote>
-<p><em>Answer 2:</em></p>
+<p><em>Answer 2: The common estimates in the full model have changed
+compared to the first model. alpha estimates and lambda estimates
+decreased while gamma estimates increased in the full model</em></p>
 </blockquote>
 <p><br></p>
 </div>
@@ -489,12 +493,12 @@ p-value.</p>
 <p><br></p>
 <p>Q3: Which model is better?</p>
 <blockquote>
-<p><em>Answer 3:</em></p>
+<p><em>Answer 3: model 2 is better</em></p>
 </blockquote>
 <p>Q4: How many degrees of freedom are there in this ANOVA and why
 (i.e. what are they)?</p>
 <blockquote>
-<p><em>Answer 4:</em></p>
+<p><em>Answer 4: there are 7 degrees of freedom </em></p>
 </blockquote>
 <p><br></p>
 </div>
@@ -605,7 +609,7 @@ significantly different at an <span class="math inline">\(\alpha\)</span> of <sp
 <p><br></p>
 <p>Q5: Is there a preferred model and if so, which one?</p>
 <blockquote>
-<p><em>Answer 5:</em></p>
+<p><em>Answer 5: AIC_full due to it having lowest AIC value</em></p>
 </blockquote>
 <p><br></p>
 <p>The nice thing about AIC is that the models you compare do not have
@@ -623,7 +627,9 @@ MLE models…</p>
 the AIC of the MLE models? Hint: type <code>?AIC</code> into the R
 console and do some reading.</p>
 <blockquote>
-<p><em>Answer 6:</em></p>
+<p><em>Answer 6: AIC needs log-likelihood to be maximised, and models
+fitted by maximum likelihood and those not fitted can’t be
+compared</em></p>
 </blockquote>
 <p><br></p>
 </div>
